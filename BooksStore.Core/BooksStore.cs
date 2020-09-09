@@ -2,7 +2,8 @@
 
 namespace BooksStore.Core
 {
-    public class Class1
+    public class BooksStore
     {
+        public string Name { get; set; }
     }
 }

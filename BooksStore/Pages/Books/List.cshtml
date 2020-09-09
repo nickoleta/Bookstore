@@ -2,3 +2,33 @@
 @model ListModel
 @{
 }
+
+<h1> Books </h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-btn">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    @foreach(var book in Model.Books)
+    {
+        <tr>
+            <td>Book</td>
+            <td>@book</td>
+            <td>
+                <a class="btn btn-lg" asp-page="./Deatil" asp-route-bookName="@book">
+                    <i class="glyphicon glyphicon-zoom-in"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>

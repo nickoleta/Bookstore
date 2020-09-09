@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksStore", "BooksStore\BooksStore.csproj", "{D296D999-D87A-450C-A4AB-864D38E8F91D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksStore.Data", "BooksStore.Data\BooksStore.Data.csproj", "{F5786504-6820-47AF-8E48-B66676AA1A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksStore.Core", "BooksStore.Core\BooksStore.Core.csproj", "{22A0B9D8-EE3C-41A5-BF13-6A3F439BEACA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{D296D999-D87A-450C-A4AB-864D38E8F91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D296D999-D87A-450C-A4AB-864D38E8F91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D296D999-D87A-450C-A4AB-864D38E8F91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5786504-6820-47AF-8E48-B66676AA1A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5786504-6820-47AF-8E48-B66676AA1A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5786504-6820-47AF-8E48-B66676AA1A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5786504-6820-47AF-8E48-B66676AA1A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A0B9D8-EE3C-41A5-BF13-6A3F439BEACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A0B9D8-EE3C-41A5-BF13-6A3F439BEACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A0B9D8-EE3C-41A5-BF13-6A3F439BEACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A0B9D8-EE3C-41A5-BF13-6A3F439BEACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

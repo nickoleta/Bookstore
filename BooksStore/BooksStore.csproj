@@ -8,4 +8,10 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Books\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BooksStore.Data\BooksStore.Data.csproj" />
+  </ItemGroup>
 </Project>
