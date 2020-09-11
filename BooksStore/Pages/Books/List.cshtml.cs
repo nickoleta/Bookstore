@@ -27,7 +27,7 @@ namespace BooksStore.Pages.Books
         // responds to /Books/List requests
         public void OnGet()
         {
-            Books = bookData.GetBooksByName(SearchTerm);
+            Books = bookData.GetByName(SearchTerm);
         }
     }
 }

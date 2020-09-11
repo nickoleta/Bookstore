@@ -31,7 +31,9 @@ namespace BooksStore
                 options.UseSqlServer(Configuration.GetConnectionString("BookstoreDb"));
             });
 
-            services.AddSingleton<IBookData, InMemoryBookData>();
+            services.AddScoped<IBookData, SqlBooksData>();
+            services.AddScoped<ICategoryData, SqlCategoriesData>();
+            services.AddScoped<IDepartmentData, SqlDepartmentsData>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {
